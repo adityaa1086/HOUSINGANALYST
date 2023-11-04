@@ -1,0 +1,64 @@
+{
+    "historicalData": {
+        "housingPrices": {
+            "Bank of America": {"max": 54.90, "min": 3.14},
+            "Citigroup": {"max": 80.08, "min": 1.02},
+            "Goldman Sachs": {"max": 273.38, "min": 52.00},
+            "JPMorgan Chase": {"max": 118.77, "min": 15.90},
+            "Morgan Stanley": {"max": 89.30, "min": 9.20},
+            "Wells Fargo": {"max": 73.00, "min": 8.12}
+        },
+        "dates": {
+            "worstReturns": "2006-08-14 to 2009-02-27",
+            "bestReturns": "2008-07-16 to 2011-05-09"
+        },
+        "returns": {
+            "worst": {
+                "Bank of America": -50.21,
+                "Citigroup": -37.73,
+                "Goldman Sachs": -18.96,
+                "JPMorgan Chase": -21.62,
+                "Morgan Stanley": -41.86,
+                "Wells Fargo": -50.21
+            },
+            "best": {
+                "Bank of America": 34.72,
+                "Citigroup": 876.99,
+                "Goldman Sachs": 23.68,
+                "JPMorgan Chase": 25.73,
+                "Morgan Stanley": 28.79,
+                "Wells Fargo": 32.76
+            }
+        },
+        "volatility": {
+            "Bank of America": 0.03,
+            "Citigroup": 0.16,
+            "Goldman Sachs": 0.02,
+            "JPMorgan Chase": 0.03,
+            "Morgan Stanley": 0.03,
+            "Wells Fargo": 0.03
+        },
+        "correlation": {
+            "Morgan Stanley and Bank of America": 0.938401
+        }
+    },
+    "currentMarketCondition": {
+        "averageHousingPrice": 250000,
+        "currentMortgageRate": 3.5,
+        "currentDefaultRate": 0.015
+    },
+    "parameters": {
+        "mortgageRateOptions": [2.5, 3.5, 4.5, 5.5, 6.5],
+        "lendingPracticeOptions": ["Conservative", "Moderate", "Aggressive"]
+    },
+    "graphImages": [
+        "page_1_img_1.png",
+        "page_1_img_2.png",
+        "page_2_img_1.png",
+        "page_2_img_2.png",
+        "page_3_img_1.png",
+        "page_3_img_2.png",
+        "page_4_img_1.png",
+        "page_4_img_2.png"
+      ]
+}

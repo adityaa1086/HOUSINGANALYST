@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns the gallery to the right */
+    padding: 20px;
+  }
+  
+  .image-wrapper {
+    margin: 10px;
+    border: 1px solid #ccc; /* Optional: adds a border around each image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to each image */
+  }

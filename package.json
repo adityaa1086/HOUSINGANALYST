@@ -1,0 +1,22 @@
+{
+    "name": "ai-housing-bubble-prevention-demo",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.2",
+        "chart.js": "^4.4.0",
+        "d3": "^7.3.0",
+        "next": "latest",
+        "postcss": "^8.3.11",
+        "prop-types": "^15.8.1",
+        "react": "^18.0.0",
+        "react-chartjs-2": "^5.2.0",
+        "react-dom": "^18.0.0",
+        "tailwindcss": "^2.2.19"
+    }
+}
